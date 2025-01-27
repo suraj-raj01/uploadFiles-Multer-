@@ -11,4 +11,11 @@ h1{
 #navbar{
   height: 10vh;
   align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar a{
+  font-weight: bold;
+  color: black;
 }
