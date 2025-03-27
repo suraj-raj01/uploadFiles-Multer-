@@ -3,7 +3,6 @@ const StuModel = require("../models/stuModel")
 const insertData = async (req, res) => {
     const { name, rollno, city } = req.body;
     const imgname = req.file.filename;
-    console.log(req.body)
     const Data = await StuModel.create(
         {
             name:name,
